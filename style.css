@@ -6,6 +6,15 @@ body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-.logoRedes {
-    height: 40px;
+header img {
+    height: 100px;
 }
+
+nav img {
+    height: 30px;
+    transition: 1s;
+}
+
+nav img:hover{
+    transform: rotate(1000deg);
+};
