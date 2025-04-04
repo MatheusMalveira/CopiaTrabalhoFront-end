@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: rgb(46, 70, 97);
-    color: rgb(244, 248, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 980px;
+    border-radius: 7px;
+    background-color: rgb(190, 190, 190);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.151);
 }
 
 header img {
@@ -12,9 +20,11 @@ header img {
 
 nav img {
     height: 30px;
-    transition: 1s;
+    transition: 0.2s;
+    padding: 4px;
 }
 
 nav img:hover{
-    transform: rotate(1000deg);
+    transform: scale(1.2);
+
 };
